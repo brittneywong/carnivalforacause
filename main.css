@@ -1,6 +1,9 @@
 body { 
+    background: linear-gradient(#FFFFFF,#6F9960);
     color: #666666; 
     font-family: 'PT Sans', arial, helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-color: #6F9960
 }
     
 header { 
