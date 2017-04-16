@@ -1,0 +1,327 @@
+body { 
+    color: #666666; 
+    font-family: 'PT Sans', arial, helvetica, sans-serif;
+}
+    
+header { 
+    background-color: #122E07;
+    color:#FFFFFF; 
+    /*background-image: url(autumn.jpg);*/
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+nav { 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    width: 160px;
+
+
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav a:link {
+    color: #77F349;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #81DB5F;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+
+}
+dt {
+    color: #122E07;
+}
+
+.resort {
+    color: #6F9960;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
+}
+
+h3 {
+    color: #122E07;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+main ul {
+    list-style-type: none;
+    display: inline-flex;
+
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+
+}
+
+#contact {
+    font-size: 90%;
+    
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #81DB5F;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    
+}
+
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+}
+
+#autumn {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(fair.jpg);
+    margin-left: 190px;
+}
+
+#yurthero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(about.jpg);
+    margin-left: 190px;
+}
+#trailhero {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(about.jpg);
+    margin-left: 190px;
+}
+
+.about {
+    color: #6F9960;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+#aboutimage {
+    background-image: url(palm.jpg);
+    height: 300px;
+    background-size: 40% 70%;
+    background-repeat: no-repeat;
+}
+
+#jar {
+    background-image: url(jar.jpg);
+    height: 300px;
+    background-size: 40% 70%;
+    background-repeat: no-repeat;
+}
+
+/* images */
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+}
+
+/* lists */
+
+.list--inline li {
+    margin: 0 5px;
+}
+
+header, main, nav, footer,section, article, figure, figcaption, aside {display: block;}
+
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+table {
+    border-color: #3399CC;
+    border-style: solid;
+    width: 80%;
+    border-spacing: 0;
+    border-width: 1px;
+}
+
+td {
+    padding: 5px;
+    border-color: #3399CC;
+    border-style: solid;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+    border-color: #3399CC;
+    border-style: solid;
+}
+
+.text {
+    text-align: left;
+}
+
+table:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    margin-left: 130px;
+}
+
+
+    
+@media only screen and (max-width: 64em) {
+    body {
+        margin: 0;
+        background-color: #FFFFFF;
+    }
+    #wrapper {
+        min-width: 0;
+        width: auto;
+        box-shadow: none;
+    }
+    main {
+        margin-left: 0;
+    }
+    nav {
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: .5em;
+    }
+    nav li {
+        display: inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+    }
+    #homehero {
+        margin-left: 0;
+        height: 200px;
+    }
+    #yurthero {
+        margin-left: 0;
+        height: 200px;
+    }
+    #trailhero {
+        margin-left: 0;
+        height: 200px;
+    }
+    footer {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    header {
+        padding-top: 1em;
+    }
+    main {
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        font-size: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    nav {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+        margin: 0;
+        border-bottom: #330000;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+    }
+    nav a {
+        display: block;
+    }
+    #homehero,#yurthero,#trailhero{
+        background-image: none;
+        height: 0;
+    }
+    #mobile {
+        display: inline;
+    }
+    #desktop {
+        display: none;
+    }
+
+    label {
+        float:none;
+        text-align: left;
+    } 
+
+    input [type="submit"] {
+        margin-left: 0;
+    }
+}
+
+
+
+
