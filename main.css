@@ -135,6 +135,18 @@ main {
     background-repeat: no-repeat;
 }
 
+.countdown {
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.countdown h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
 /* basic elements */
 
 .content-header {
@@ -250,6 +262,10 @@ th {
 
 tr:nth-of-type(odd) {
     background-color: #f1f0d7;
+}
+
+.paypal-donate-form input {
+    border: none;
 }
 
 .form-group {

@@ -46,6 +46,10 @@
                     </div>
                 </div>
                 <div>
+                    <div class="countdown">
+                        <h2>Countdown</h2>
+                        <div id="countdown"></div>
+                    </div>
                     <a class="twitter-timeline" data-link-color="#77F349" href="https://twitter.com/CarnivalCause">Tweets by CarnivalCause</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </main>
@@ -53,6 +57,17 @@
                 Copyright &copy; 2017 Carnival for a Cause<br>
                 <a href="mailto:brittneywong@gmail.com">carnivalforacause@gmail.com</a>
             </footer>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="jquery.countdown.min.js"></script>
+            <script type="text/javascript">
+              $("#countdown")
+              .countdown("2017/10/06", function(event) {
+                $(this).text(
+                  event.strftime('%m months %w weeks %d days %H:%M:%S')
+                );
+              });
+            </script>
         </div>
     </body>
 </html>
