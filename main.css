@@ -11,6 +11,14 @@ header {
     padding-top: 15px;
 }
 
+header h1 a {
+    color: #B3B070;
+}
+
+header h1 a:hover {
+    color: #B3B070;
+}
+
 /* type */
 
 a {
@@ -222,24 +230,18 @@ header, main, nav, footer,section, article, figure, figcaption, aside {display: 
 }
 
 table {
-    border-color: #3399CC;
-    border-style: solid;
+    border: 1px solid #FFFA6F;
     width: 80%;
     border-spacing: 0;
-    border-width: 1px;
 }
 
 td {
     padding: 5px;
-    border-color: #3399CC;
-    border-style: solid;
     text-align: center;
 }
 
 th {
     padding: 5px;
-    border-color: #3399CC;
-    border-style: solid;
 }
 
 .text {
@@ -247,20 +249,32 @@ th {
 }
 
 tr:nth-of-type(odd) {
-    background-color: #F5FAFC;
+    background-color: #f1f0d7;
+}
+
+.form-group {
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 7px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #6d6d6d;
+    border: 1px solid #a9a9a9;
 }
 
 label {
     float: left;
     display: block;
     text-align: right;
-    width: 120px;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 125px;
     padding-right: 10px;
-}
-
-input, textarea {
-    display: block;
-    margin-bottom: 20px;
 }
 
 input[type="submit"]{
